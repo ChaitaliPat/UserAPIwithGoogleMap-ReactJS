@@ -1,0 +1,33 @@
+body{
+  height: 100%;
+  width: 100%;
+  background-color: teal;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+}
+
+.HeaderComp{
+  background-color: black;
+}
+
+.FooterComp{
+  background-color: grey;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+}
+
+.BodyComp{
+  background-color:aqua;
+  min-height: 90vh; 
+}
+
